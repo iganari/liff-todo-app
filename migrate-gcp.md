@@ -40,3 +40,7 @@ gcloud beta sql instances delete ${_sql_instance_name}  \
   --project ${_gcp_pj_id} \
   -q
 ```
+
+## App Engine から Cloud SQL につなぐ
+
+https://cloud.google.com/sql/docs/mysql/connect-app-engine-standard#public-ip-default
